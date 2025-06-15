@@ -5,6 +5,7 @@ import { ProjectsSection } from "./sections/ProjectsSection";
 import { SkillsSection } from "./sections/SkillsSection";
 
 export const MacbookAirDark = (): JSX.Element => {
+  const currentYear = new Date().getFullYear()
   return (
     <div className="bg-[#000002] flex flex-row justify-center w-full">
       <div className="bg-[#000002] overflow-hidden border border-solid border-transparent w-full max-w-[1280px] relative">
@@ -14,7 +15,7 @@ export const MacbookAirDark = (): JSX.Element => {
         <ProjectsSection />
         <ContactSection />
         <footer className="w-full py-4 text-base text-center [font-family:'Inconsolata',Helvetica] font-bold text-white tracking-[0] leading-[normal]">
-          Jhowl - 2023
+          Jhowl - {currentYear}
         </footer>
 
         <div className="fixed w-[65px] h-[457px] top-0 right-0">
