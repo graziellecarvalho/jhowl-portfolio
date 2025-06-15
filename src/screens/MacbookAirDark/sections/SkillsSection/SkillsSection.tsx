@@ -1,5 +1,5 @@
-import { Badge } from "../../../../components/ui/badge";
-import { Separator } from "../../../../components/ui/separator";
+import { Badge } from "@components/ui/badge";
+import { Separator } from "@components/ui/separator";
 
 // Define skill data for mapping
 const skillCategories = [
