@@ -1,4 +1,3 @@
-import React from "react";
 import { AboutMeSection } from "./sections/AboutMeSection";
 import { ContactSection } from "./sections/ContactSection";
 import { NavigationSection } from "./sections/NavigationSection/NavigationSection";
@@ -8,7 +7,7 @@ import { SkillsSection } from "./sections/SkillsSection";
 export const MacbookAirDark = (): JSX.Element => {
   return (
     <div className="bg-[#000002] flex flex-row justify-center w-full">
-      <div className="bg-[#000002] overflow-hidden border border-solid border-transparent w-full max-w-[1280px] relative">
+      <div className="bg-[#000002] border border-solid border-transparent w-full max-w-[1280px] relative">
         <NavigationSection />
         <AboutMeSection />
         <SkillsSection />

@@ -16,7 +16,7 @@ export const NavigationSection = (): JSX.Element => {
   ];
 
   return (
-    <header className="w-full h-28 bg-[#000002] border-b border-border/5">
+    <header className="w-full bg-[#000002] sticky top-0 h-28 z-50 border-b border-border/5">
       <div className="container mx-auto h-full flex items-center justify-between px-6">
         {/* Logo */}
         <div className="text-5xl font-bold text-white tracking-[0] leading-normal font-['Inconsolata',Helvetica]">
@@ -30,7 +30,9 @@ export const NavigationSection = (): JSX.Element => {
               <NavigationMenuItem key={index}>
                 <NavigationMenuLink
                   href={link.href}
-                  className="font-['Inconsolata',Helvetica] font-bold text-white text-2xl tracking-[0] leading-normal"
+                  className="relative inline-block mx-5 py-2 text-white text-2xl font-bold font-['Inconsolata',Helvetica] transition-colors duration-300
+             before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-[2px] before:w-0 before:bg-white before:transition-all before:duration-300
+             hover:before:w-full"
                 >
                   {link.label}
                 </NavigationMenuLink>
