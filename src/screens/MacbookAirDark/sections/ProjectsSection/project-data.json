@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Bitcoin Currency for Telegram",
+    "technologies": "HTML5, HTML5, HTML5",
+    "iconSrc": "/icon---bot.png",
+    "iconAlt": "Icon bot",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id augue id enim lobortis rutrum.\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam eu enim in ex\nscelerisque iaculis.",
+    "url": "google.com"
+  },
+  {
+    "id": 2,
+    "title": "Website project",
+    "technologies": "HTML5, HTML5, HTML5",
+    "iconSrc": "/icon---bot-1.png",
+    "iconAlt": "Icon bot",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id augue id enim lobortis rutrum.\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "url": "google.com"
+  },
+  {
+    "id": 3,
+    "title": "Bitcoin Currency for Telegram",
+    "technologies": "HTML5, HTML5, HTML5",
+    "iconSrc": "/icon---bot.png",
+    "iconAlt": "Icon bot",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id augue id enim lobortis rutrum.\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam eu enim in ex\nscelerisque iaculis.",
+    "url": "google.com"
+  },
+  {
+    "id": 4,
+    "title": "Website project",
+    "technologies": "HTML5, HTML5, HTML5",
+    "iconSrc": "/icon---bot-1.png",
+    "iconAlt": "Icon bot",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id augue id enim lobortis rutrum.\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "url": "google.com"
+  }
+]
