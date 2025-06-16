@@ -27,6 +27,8 @@
       "@lib/*": ["src/lib/*"],
       "@screens/*": ["src/screens/*"]
     },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
   },
   "include": [
     "src"
