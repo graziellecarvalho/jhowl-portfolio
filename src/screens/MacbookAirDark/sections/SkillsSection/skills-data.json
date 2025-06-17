@@ -1,0 +1,24 @@
+[
+  {
+    "level": "Beginner",
+    "skills": ["Ruby", "C#", "Java"]
+  },
+  {
+    "level": "Intermediate",
+    "skills": ["Python", "React", "SvelteKit", "Go"]
+  },
+  {
+    "level": "Advanced",
+    "skills": [
+      "NodeJS",
+      "JavaScript",
+      "HTML",
+      "MySQL",
+      "PHP",
+      "WordPress",
+      "API",
+      "MongoDB",
+      "WooCommerce"
+    ]
+  }
+]

@@ -59,13 +59,35 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        floatY: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-8px)' },
+        },
+        floatWiggle: {
+          '0%':   { transform: 'translate(0px, 0px)' },
+          '25%':  { transform: 'translate(-6px, 4px)' },
+          '50%':  { transform: 'translate(3px, -5px)' },
+          '75%':  { transform: 'translate(5px, 3px)' },
+          '100%': { transform: 'translate(0px, 0px)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        floatY: 'floatY 4s ease-in-out infinite',
+        floatWiggle: 'floatWiggle 6s ease-in-out infinite',
       },
     },
-    container: { center: true, padding: "6rem", screens: { "2xl": "1400px" } },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "2rem", // < 640px
+        sm: "6rem",        // ≥ 640px
+      },
+      screens: {
+        "2xl": "1400px",
+      },
+    },
   },
   plugins: [],
   darkMode: ["class"],
