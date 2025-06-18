@@ -64,11 +64,18 @@ export const AboutMeSection = (): JSX.Element => {
         </div>
 
         {/* Experience text */}
-        <p className="font-bold text-white text-2xl text-center">
-          I&apos;ve been working as a back-end for more over than 10 years. On
-          my early years,
-          <br />I developed services using PHP and using WordPress as a CMS.
-        </p>
+        {(() => {
+          const startYear = 2013;
+          const currentYear = new Date().getFullYear();
+          const yearsOfExperience = currentYear - startYear;
+          return (
+            <p className="font-bold text-white text-2xl text-center">
+              I&apos;ve been working as a back-end for {yearsOfExperience} years. On
+              my early years,
+              <br />I developed services using PHP and using WordPress as a CMS.
+            </p>
+          );
+        })()}
       </div>
     </section>
   );

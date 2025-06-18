@@ -14,7 +14,7 @@ export const MacbookAirDark = (): JSX.Element => {
         <ProjectsSection />
         <ContactSection />
         <footer className="w-full py-4 text-base text-center [font-family:'Inconsolata',Helvetica] font-bold text-white tracking-[0] leading-[normal]">
-          Jhowl - 2023
+          Jhowl - {new Date().getFullYear()}
         </footer>
 
         <div className="fixed w-[65px] h-[457px] top-0 right-0">
